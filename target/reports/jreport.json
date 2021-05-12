@@ -1,0 +1,393 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "This step will always execute before my test case",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "login the application",
+            "match": {
+              "location": "stepdefination.login_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "verify the google search with different values",
+        "description": "",
+        "id": "google-search-functioanlity;verify-the-google-search-with-different-values;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user should be on the main page",
+            "match": {
+              "location": "stepdefination.user_should_be_on_the_main_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User search \"facebook\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "facebook",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefination.user_search(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "clicks on Search button",
+            "match": {
+              "location": "stepdefination.clicks_on_Search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "Results will be populated",
+            "match": {
+              "location": "stepdefination.results_will_be_populated()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@featuretag"
+          },
+          {
+            "line": 7,
+            "name": "@Sanity"
+          },
+          {
+            "line": 7,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "This step will always execute before my test case",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "login the application",
+            "match": {
+              "location": "stepdefination.login_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "verify the google search with different values",
+        "description": "",
+        "id": "google-search-functioanlity;verify-the-google-search-with-different-values;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user should be on the main page",
+            "match": {
+              "location": "stepdefination.user_should_be_on_the_main_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User search \"ibm\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ibm",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefination.user_search(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "clicks on Search button",
+            "match": {
+              "location": "stepdefination.clicks_on_Search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "Results will be populated",
+            "match": {
+              "location": "stepdefination.results_will_be_populated()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@featuretag"
+          },
+          {
+            "line": 7,
+            "name": "@Sanity"
+          },
+          {
+            "line": 7,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "This step will always execute before my test case",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "login the application",
+            "match": {
+              "location": "stepdefination.login_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "verify the google search with different values",
+        "description": "",
+        "id": "google-search-functioanlity;verify-the-google-search-with-different-values;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user should be on the main page",
+            "match": {
+              "location": "stepdefination.user_should_be_on_the_main_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User search \"DXC\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "DXC",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefination.user_search(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "clicks on Search button",
+            "match": {
+              "location": "stepdefination.clicks_on_Search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "Results will be populated",
+            "match": {
+              "location": "stepdefination.results_will_be_populated()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@featuretag"
+          },
+          {
+            "line": 7,
+            "name": "@Sanity"
+          },
+          {
+            "line": 7,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "This step will always execute before my test case",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "login the application",
+            "match": {
+              "location": "stepdefination.login_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "verify the google search with different values",
+        "description": "",
+        "id": "google-search-functioanlity;verify-the-google-search-with-different-values",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "user should be on the main page",
+            "match": {
+              "location": "stepdefination.user_should_be_on_the_main_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "User search facebook",
+            "match": {
+              "location": "stepdefination.user_search_facebook()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "clicks on Search button",
+            "match": {
+              "location": "stepdefination.clicks_on_Search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "Results will be populated",
+            "match": {
+              "location": "stepdefination.results_will_be_populated()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 20,
+            "name": "@Regression"
+          },
+          {
+            "line": 20,
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "google search functioanlity",
+    "description": "",
+    "id": "google-search-functioanlity",
+    "keyword": "Feature",
+    "uri": "signup1.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@featuretag"
+      }
+    ]
+  }
+]

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="0">
+<testcase classname="google search functioanlity" name="verify the google search with different values" time="0">
+<system-out><![CDATA[Given login the application.................................................skipped
+Given user should be on the main page.......................................skipped
+When User search "facebook".................................................skipped
+And clicks on Search button.................................................skipped
+Then Results will be populated..............................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="google search functioanlity" name="verify the google search with different values 2" time="0">
+<system-out><![CDATA[Given login the application.................................................skipped
+Given user should be on the main page.......................................skipped
+When User search "ibm"......................................................skipped
+And clicks on Search button.................................................skipped
+Then Results will be populated..............................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="google search functioanlity" name="verify the google search with different values 3" time="0">
+<system-out><![CDATA[Given login the application.................................................skipped
+Given user should be on the main page.......................................skipped
+When User search "DXC"......................................................skipped
+And clicks on Search button.................................................skipped
+Then Results will be populated..............................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="google search functioanlity" name="verify the google search with different values" time="0">
+<system-out><![CDATA[Given login the application.................................................skipped
+Given user should be on the main page.......................................skipped
+When User search facebook...................................................skipped
+And clicks on Search button.................................................skipped
+Then Results will be populated..............................................skipped
+]]></system-out>
+</testcase>
+</testsuite>
